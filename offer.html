@@ -30,9 +30,11 @@
     integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
     crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   <!-- JS -->
+  <script src="./js/jquery-3.6.0.min.js"></script>
   <script defer src="./js/dropdown.js"></script>
   <script defer src="./js/slide.js"></script>
   <script defer src="./js/scroll.js"></script>
+  <script defer src="./js/import_page.js"></script>
 
 
 </head>
@@ -72,37 +74,22 @@
   <!-- MAIN -->
   <main>
 
-      <!-- TITLE AREA -->
-      <section class="important inner title_area">
-        <p>HOTEL SUITEIAN</p>
-        <h1 clacc="title">LOCATION</h1>
-      </section>
-  
-     <!--OFFERS & EVENT-->
-     <section class="important offers inner">
-      <h2 class="title">OFFERS&EVENT</h2>
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
-          <a href="javascript:void(0)">
-            <figure>
-              <img src="./img/main/offer/sweetian_promotion.jpg" alt="스위티안 프로모션">
-              <figcaption><span>&lsqb;【스위티안 1주년 프로모션】&rsqb;</span>【스위티안 1주년 프로모션】</figcaption>
-            </figure>
-          </a>
-        </div>
-        <div class="swiper-slide">
-          <a href="javascript:void(0)">
-            <figure>
-              <img src="./img/main/offer/sweetian_promotion.jpg" alt="스위티안 프로모션">
-              <figcaption><span>&lsqb;【스위티안 1주년 프로모션】&rsqb;</span>【스위티안 1주년 프로모션】</figcaption>
-            </figure>
-          </a>
-        </div>
+    <!-- TITLE AREA -->
+    <section class="important title_area">
+      <p>HOTEL SUITEIAN</p>
+      <h1 clacc="title">OFFERS</h1>
+    </section>
 
+    <!--OFFERS & EVENT-->
+    <section class="important offers_event inner">
+      <h2>스페셜오퍼</h2>
+      <p>스위티안 호텔의 스페셜 오퍼를 확인해 보세요.</p>
+      <hr>
+      <div class="offer__btn">
+        <button class="offer__btn--ongoing on">진행중</button>
+        <button class="offer__btn--close">종료</button>
       </div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
-
+      <div class="offerlist inner"></div>
     </section>
 
 

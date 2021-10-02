@@ -1,0 +1,105 @@
+/* TITLE AREA */
+
+.title_area {
+    background-image: url(../img/offer/3.jpg);
+}
+
+/* OFFERS & EVENT */
+.offers_event>h2,
+.offers_event>p {
+    font-weight: var(--font-bolder);
+}
+
+.offers_event>h2 {
+    font-size: var(--font-large);
+}
+
+.offers_event>p {
+    font-size: var(--font-tiny);
+}
+
+.offer__btn {
+    margin-top: 2rem;
+}
+
+.offer__btn>button {
+    width: 150px;
+    height: 50px;
+    font-size: var(--font-small);
+    font-weight: var(--font-bold);
+    border: 1px solid #afafaf;
+}
+
+.offer__btn>button.on {
+    color: var(--color-white);
+    background-color: var(--color-gold);
+    border: 0
+}
+
+.offers_ongoing {
+    margin-top: 2rem;
+}
+
+.offers_ongoing .item_lists.flex {
+    gap: 10px;
+}
+
+.offers_ongoing .item_lists .item {
+    width: calc(100%/3);
+    height: 500px;
+}
+
+.offers_ongoing .item_lists .item figure .item__img {
+    width: 100%;
+}
+
+.offers_ongoing .item_lists .item figure figcaption {
+    line-height: 3;
+}
+
+.offers_ongoing .item_lists .item figure figcaption .item__title {
+    font-weight: var(--font-bolder);
+}
+
+.offers_ongoing .item_lists .item figure figcaption .item__intro {
+    font-size: var(--font-tiny);
+    color: var(--color-intro_area-strong);
+}
+
+.offers_ongoing .item_lists .item figure figcaption .item__writer {
+    font-size: var(--font-tiny);
+}
+
+.offers_close {
+    margin-top: 2rem;
+}
+
+.offers_close .item_lists.flex {
+    gap: 10px;
+}
+
+.offers_close .item_lists .item {
+    width: calc(100%/5);
+    height: 500px;
+}
+
+.offers_close .item_lists .item figure .item__img {
+    width: 100%;
+}
+
+.offers_close .item_lists .item figure figcaption {
+    line-height: 3;
+}
+
+.offers_close .item_lists .item figure figcaption .item__title {
+    font-weight: var(--font-bolder);
+}
+
+.offers_close .item_lists .item figure figcaption .item__intro {
+    font-size: var(--font-tiny);
+    color: var(--color-intro_area-strong);
+}
+
+.offers_close .item_lists .item figure figcaption .item__writer {
+    font-size: var(--font-tiny);
+}
