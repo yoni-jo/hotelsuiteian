@@ -210,14 +210,10 @@ section {
     scroll-snap-align: start;
 }
 
-section.important:last-child {
-    margin-bottom: 0;
-}
-
 section.important {
     padding-left: 150px;
-    margin-bottom: 3rem;
     position: relative;
+    margin-bottom: 3rem;
 }
 
 /* TITLE_AREA */
@@ -527,6 +523,10 @@ p {
 }
 
 /* PRIVATE_ROOMS */
+li.btn--private{
+    position:static;
+    width:auto;
+}
 .btn--private {
     position: fixed;
     width: 200px;
