@@ -140,7 +140,9 @@
     text-align: center;
     line-height: 2;
 }
-
+.suiteian_restaurant.important{
+    margin-bottom: 0;
+}
 .suiteian_restaurant .btn-view {
     margin: 0 auto;
 }
