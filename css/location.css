@@ -1,0 +1,42 @@
+/* TOP AREA */
+
+
+.title_area {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 600px;
+    background-image: url(../img/location/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: var(--color-white);
+}
+
+.title_area::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .2);
+}
+
+.title_area>h1,
+.title_area>p {
+    padding-left: 5rem;
+    font-family: var(--font-fam-title);
+    z-index: 2;
+
+}
+
+.title_area>h1 {
+    font-size: var(--font-size-toparea);
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.title_area>p {
+    font-size: var(--font-medium);
+}

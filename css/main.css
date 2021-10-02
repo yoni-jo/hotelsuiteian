@@ -1,0 +1,170 @@
+
+/* TOP AREA */
+
+.top_area {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+}
+
+.top_area h1 {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.top_area h2 {
+    display: block;
+}
+
+.top_area video {
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    object-position: cover;
+    width: 100%;
+
+}
+
+
+/* OFFERS & EVENT */
+
+.offers {
+    height: 100vh;
+}
+
+.offers.inner .title {
+    color: var(--color-title);
+}
+
+
+.offers .swiper-wrapper .swiper-slide {
+
+    width: calc(100%/3) !important;
+    margin-right: 1rem;
+
+}
+
+.offers .swiper-slide a figure img {
+    width: 100%;
+}
+
+/* LANDSCAPE */
+
+.landscape {
+    position: relative;
+    background-image: url(../img/main/landscape/location.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.landscape::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .3);
+    z-index: 3;
+
+}
+
+.landscape .inner {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.landscape .inner .title {
+    z-index: 4;
+}
+
+.landscape .inner p {
+    text-align: right;
+    color: var(--color-white);
+    text-indent: 10px;
+    z-index: 4;
+}
+
+
+/* INFINITY POOL */
+
+.infinity_pool .intro_area {
+    width: 30%;
+    text-align: left;
+}
+
+
+/* RESTAURANT */
+
+.restaureant .inner {
+    flex-direction: row-reverse;
+}
+
+.restaureant .intro_area {
+    align-items: flex-end;
+}
+
+.restaureant .intro_area>p {
+    text-align: right;
+}
+
+.restaureant .intro_area>a {
+    width: 100%;
+}
+
+.restaureant .intro_img {
+    margin: 0 0 0 -20%;
+}
+
+
+/*SLIDE SHOW*/
+
+.slide_show .swiper-slide {
+    margin-right: 50px;
+}
+
+.slide_show .swiper-button-prev,
+.swiper-button-next {
+    bottom: 0;
+}
+
+/* SUITEIAN RESTAURANT */
+
+.suiteian_restaurant {
+    text-align: center;
+    line-height: 2;
+}
+
+.suiteian_restaurant .btn-view {
+    margin: 0 auto;
+}
+
+.suiteian_restaurant .img_lists {
+    margin-top: 3rem;
+}
+
+.suiteian_restaurant .img_lists li {
+    height: 100%;
+    height: 600px;
+    overflow: hidden;
+    margin-right: 1px;
+}
+
+.suiteian_restaurant .img_lists li:hover img {
+    transform: scale(1.1);
+    opacity: 1;
+}
+
+.suiteian_restaurant .img_lists li img {
+    height: 100%;
+    opacity: .8;
+    transition: .5s;
+}
+
+
