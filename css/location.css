@@ -40,3 +40,11 @@
 .title_area>p {
     font-size: var(--font-medium);
 }
+
+/* LOCATION */
+
+.location h2.title {
+    text-align: right;
+    font-weight: var(--font-medium);
+}
+
