@@ -41,7 +41,7 @@
 }
 
 .offers_ongoing .item_lists.flex {
-    gap: 10px;
+    gap: 30px;
 }
 
 .offers_ongoing .item_lists .item {
@@ -68,6 +68,7 @@
 
 .offers_ongoing .item_lists .item figure figcaption .item__writer {
     font-size: var(--font-tiny);
+    line-height: 1;
 }
 
 .offers_close {
