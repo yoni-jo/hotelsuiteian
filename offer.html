@@ -85,9 +85,11 @@
       <h2>스페셜오퍼</h2>
       <p>스위티안 호텔의 스페셜 오퍼를 확인해 보세요.</p>
       <hr>
-      <div class="offer__btn">
-        <button class="offer__btn--ongoing on">진행중</button>
-        <button class="offer__btn--close">종료</button>
+      <div class="offer__btns">
+        <input type="radio" class="offer__btn--ongoing" id="ongoing" name="select" checked>
+        <label for="ongoing">진행중</label>
+        <input type="radio" class="offer__btn--close" id="close" name="select">
+        <label for="close">종료</label>
       </div>
       <div class="offerlist inner"></div>
     </section>
