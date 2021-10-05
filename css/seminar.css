@@ -1,0 +1,10 @@
+/* TITLE_AREA */
+
+section.title_area{
+    background-image: url(../img/seminar/1.jpg);
+    justify-content: center;
+    align-items: center;
+}
+.title_area>h1{
+    max-width: 800px;
+}
