@@ -1,12 +1,3 @@
-.top_area{
-    height: 100vh;
-}
-.top_area>h1 {
-    position: absolute;
-    left:50%;
-    top:50%;
-    transform: translate(-50%,-50%);
-}
 
 /* RESTAURANT INFO */
 
@@ -35,16 +26,3 @@
     font-weight: var(--font-bold);
 }
 
-/* GREETING */
-
-.greeating {
-    height: 100vh;
-    background-image: url(../img/food/8.jpg);
-    background-size: cover;
-}
-
-.greeating>.inner {
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
