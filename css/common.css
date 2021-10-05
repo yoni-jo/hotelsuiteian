@@ -79,9 +79,11 @@ header .logo {
     text-align: center;
     background-color: var(--color-gold);
 }
-header .logo>a{
+
+header .logo>a {
     z-index: 4;
 }
+
 header .logo::before,
 header .logo::after {
     content: '';
@@ -185,26 +187,28 @@ header .menu>li>a {
     transition: .7s;
 }
 
-.etc>ul .etc__sns .sns--list i.fab,
-.etc>ul .etc__sns .sns--list i.fas {
-    color: rgba(255, 255, 255, 0);
+
+.etc>ul .etc__sns .sns--list>span{
+    color:transparent;
+    opacity: 0;
+    z-index: 10;
     font-size: var(--font-medium);
     font-weight: var(--font-regular);
-    transition: color .5s;
+    transition: opacity .5s;
 
 
 }
 
 .etc .etc__sns .sns--list.show {
-    transform: translateY(0%) !important;
+    transform: translateY(0%);
 }
 
-.etc .etc__sns .sns--list.show>.fab,
-.etc .etc__sns .sns--list.show>.fas {
-    color: rgba(255, 255, 255, 1)
+.etc>ul .etc__sns .sns--list.show>span{
+    opacity: 1;
 }
-
-
+.etc>ul .etc__sns .sns--list.show>span>a{
+    color:var(--color-white)
+}
 section {
     width: 100%;
     height: 100%;
