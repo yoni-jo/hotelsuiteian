@@ -1,0 +1,77 @@
+/* TITLE AREA */
+.title_area {
+    background-image: url(../img/booking/title/2.jpg);
+}
+
+/* BOOKING */
+
+.booking__area {
+    width: 100%;
+}
+
+.booking__area .lists {
+    border: 1px solid var(--color-intro_area-strong);
+    align-items: center;
+}
+
+.booking__area .lists>li+li {
+    border-left: 1px solid var(--color-intro_area-strong);
+}
+
+.booking__area .lists .list {
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.booking__area .lists .list:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.booking__area .lists .list h4 {
+    color: var(--color-title);
+    font-size: var(--font-small);
+    font-weight: var(--font-bolder);
+    letter-spacing: -3px;
+
+}
+
+.booking__area .lists .list strong {
+    color: var(--color-intro_area-strong);
+    font-size: var(--font-tiny);
+}
+
+.booking__area>h2 {
+    text-align: center;
+}
+
+.booking__area>h2>img {
+    width: 250px;
+    text-align: center;
+    display: inline-block;
+}
+
+.booking__area>ol.check_lists>.list {
+    list-style: decimal;
+}
+
+.booking__area>ol.check_lists>.list>strong {
+    font-weight: var(--font-bolder);
+    line-height: 3;
+}
+
+.booking__area>ol.check_lists>.list>ul {
+    margin-bottom: 3rem;
+}
+
+.booking__area>ol.check_lists>.list>ul>li {
+    list-style: disc !important;
+    font-size: var(--font-tiny);
+    line-height: 2;
+}
