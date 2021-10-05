@@ -1,0 +1,20 @@
+.title_area {
+    background-image: url(../img/facility/title/7.jpg);
+}
+
+.seminar .inner {
+    flex-direction: row-reverse;
+}
+
+
+.seminar .intro_area>p {
+    text-align: right;
+}
+
+.seminar .intro_area>a {
+    width: 100%;
+}
+
+.seminar .intro_img {
+    margin: 0 0 0 -20%;
+}
