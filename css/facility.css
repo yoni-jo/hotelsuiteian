@@ -1,12 +1,16 @@
 .title_area {
     background-image: url(../img/facility/title/7.jpg);
+
+  
 }
 
 .seminar .inner {
     flex-direction: row-reverse;
 }
 
-
+.seminar .intro_area{
+    align-items: flex-end;;
+}
 .seminar .intro_area>p {
     text-align: right;
 }
