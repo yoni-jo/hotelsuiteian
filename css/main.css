@@ -134,39 +134,4 @@
     bottom: 0;
 }
 
-/* SUITEIAN RESTAURANT */
-
-.suiteian_restaurant {
-    text-align: center;
-    line-height: 2;
-}
-.suiteian_restaurant.important{
-    margin-bottom: 0;
-}
-.suiteian_restaurant .btn-view {
-    margin: 0 auto;
-}
-
-.suiteian_restaurant .img_lists {
-    margin-top: 3rem;
-}
-
-.suiteian_restaurant .img_lists li {
-    height: 100%;
-    height: 600px;
-    overflow: hidden;
-    margin-right: 1px;
-}
-
-.suiteian_restaurant .img_lists li:hover img {
-    transform: scale(1.1);
-    opacity: 1;
-}
-
-.suiteian_restaurant .img_lists li img {
-    height: 100%;
-    opacity: .8;
-    transition: .5s;
-}
-
 
