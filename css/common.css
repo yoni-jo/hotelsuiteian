@@ -6,7 +6,7 @@
 
     /* FONT SIZE */
     --font-size-toparea: 5em;
-    --font-size-bigpoint:3em;
+    --font-size-bigpoint: 3em;
     --font-large: 2em;
     --font-medium: 1.3em;
     --font-small: 1em;
@@ -262,9 +262,11 @@ section.title_area {
     text-align: center;
     line-height: 2;
 }
-.suiteian_restaurant.important{
+
+.suiteian_restaurant.important {
     margin-bottom: 0;
 }
+
 .suiteian_restaurant .btn-view {
     margin: 0 auto;
 }
@@ -519,7 +521,7 @@ p {
 
 }
 
-.btn--sub_menu--left.on>a {
+.btn--sub_menu>span.on>a {
     font-weight: var(--font-bolder);
     color: #000;
     text-shadow:
@@ -529,7 +531,22 @@ p {
         .1px .1px 0 #000;
 }
 
-.btn--sub_menu--right>a {}
+/* btn-writer */
+.btn--writer {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--color-button);
+    color: var(--color-white);
+    transition: .3s;
+}
+
+.btn--writer>i {
+    margin-right: 10px;
+}
+
+.btn--writer:hover {
+    background-color: var(--color-gold);
+}
 
 /*scroll-spy 설정*/
 .back-to-position {
@@ -560,10 +577,11 @@ p {
 }
 
 /* PRIVATE_ROOMS */
-li.btn--private{
-    position:static;
-    width:auto;
+li.btn--private {
+    position: static;
+    width: auto;
 }
+
 .btn--private {
     position: fixed;
     width: 200px;
