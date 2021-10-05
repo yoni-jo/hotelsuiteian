@@ -1,4 +1,5 @@
-//offer페이지에서 진행중 버튼 클릭시
+//offer페이지에서 진행중 or 종료 버튼 클릭시
+//비동기형식으로 해당 페이지가 보여지는 이벤트
 
 $(document).ready(function () {
     $.ajax({
