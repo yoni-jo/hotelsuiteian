@@ -1,0 +1,50 @@
+.top_area{
+    height: 100vh;
+}
+.top_area>h1 {
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+/* RESTAURANT INFO */
+
+.restaurant_info {
+    height: 100vh;
+}
+
+.restaurant_info .items {
+    gap: 1rem
+}
+
+.restaurant_info .items .item img {
+    width: 100%;
+    height: 330px;
+    margin-bottom: 3rem;
+}
+
+.restaurant_info .items .item strong {
+    display: inline-block;
+    color: var(--color-intro_area-strong);
+    font-weight: var(--font-bolder);
+    margin-bottom: 2rem;
+}
+
+.restaurant_info .items .item p {
+    font-weight: var(--font-bold);
+}
+
+/* GREETING */
+
+.greeating {
+    height: 100vh;
+    background-image: url(../img/food/8.jpg);
+    background-size: cover;
+}
+
+.greeating>.inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
