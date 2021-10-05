@@ -79,7 +79,9 @@ header .logo {
     text-align: center;
     background-color: var(--color-gold);
 }
-
+header .logo>a{
+    z-index: 4;
+}
 header .logo::before,
 header .logo::after {
     content: '';
