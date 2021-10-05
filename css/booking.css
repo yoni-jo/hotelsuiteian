@@ -75,3 +75,39 @@
     font-size: var(--font-tiny);
     line-height: 2;
 }
+
+.confirmation {
+    position: relative;
+    margin: 4rem auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    max-width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background-color:rgba(105, 105, 105,.5);
+}
+.confirmation::before{
+    width: 100%;
+    height: 100%;
+    content:"";
+    position: absolute;
+    transform: scale(1.2);
+    border-radius: 50%;
+    background-color: rgba(0,0,0,.2);
+    color:var(--color-white);
+}
+.confirmation>strong,p,a{
+    z-index: 3;
+    color:var(--color-white);
+}
+.confirmation>p{
+    opacity: 0.5;
+}
+.confirmation>a{
+    margin-top: 3rem;
+    transition:.3s;
+}
+.confirmation>a:hover{
+    opacity:.3;
+}
