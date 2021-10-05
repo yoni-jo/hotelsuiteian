@@ -1,0 +1,86 @@
+/* Q&A */
+.qna>h2,
+.qna>p {
+    font-weight: var(--font-bolder);
+}
+
+.qna>h2 {
+    font-size: var(--font-large);
+}
+
+.qna>p {
+    font-size: var(--font-tiny);
+}
+
+
+/* BOARD */
+
+.board {
+    width: 100%;
+}
+
+.board .board__top {
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.board__top .board__total {
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    font-size: var(--font-tiny);
+    color: var(--color-white);
+    background-color: var(--color-beige);
+    border-radius: 5px;
+}
+
+.board>table {
+    width: 100%;
+    text-align: center;
+}
+
+.board>table {
+    margin-bottom: 3rem;
+}
+
+.board>table tr {
+    font-size: var(--font-tiny);
+}
+
+.board>table thead {
+    font-size: var(--font-tiny);
+    border: 1px solid var(--color-title);
+}
+
+.board>table thead tr th {
+    padding: 15px;
+}
+
+.board>table tbody tr td {
+    padding: 15px;
+    border-bottom: 1px solid #000;
+
+}
+
+.board__bottom {
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.board__bottom .search legend {
+    font-size: 0;
+}
+
+.board__lists {
+    justify-content: center;
+    align-items: center;
+}
+
+.board__lists .list {
+    padding: 10px;
+    border-radius: 3px;
+    color:white;
+    font-size: var(--font-tiny);
+    background-color: var(--color-footer-right);
+    cursor: pointer;
+}
