@@ -1,0 +1,55 @@
+/* TITLE AREA */
+
+.title_area {
+    background-image: url(../img/offer/3.jpg);
+}
+
+/* MEDIA */
+.media>h2,
+.media>p {
+    font-weight: var(--font-bolder);
+}
+
+.media>h2 {
+    font-size: var(--font-large);
+}
+
+.media>p {
+    font-size: var(--font-tiny);
+}
+
+
+.media_area{
+    margin-top: 2rem;
+}
+
+.media_area .item_lists.flex {
+    gap: 30px;
+}
+
+.media_area .item_lists .item {
+    width: calc(100%/5);
+    height: 500px;
+}
+
+.media_area .item_lists .item figure .item__img {
+    width: 100%;
+}
+
+.media_area .item_lists .item figure figcaption {
+    line-height: 3;
+}
+
+.media_area .item_lists .item figure figcaption .item__title {
+    font-weight: var(--font-bolder);
+}
+
+.media_area .item_lists .item figure figcaption .item__intro {
+    font-size: var(--font-tiny);
+    color: var(--color-intro_area-strong);
+}
+
+.media_area .item_lists .item figure figcaption .item__writer {
+    font-size: var(--font-tiny);
+    line-height: 1;
+}
