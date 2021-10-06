@@ -1,5 +1,5 @@
 
-//OFFER 
+//OFFER 세션
 const swiper = new Swiper('.offers', {
     // Optional parameters
     direction: 'horizontal',
@@ -11,7 +11,7 @@ const swiper = new Swiper('.offers', {
 });
 
 
-//SLIDE SHOW
+//SLIDE SHOW 세션
 new Swiper('.slide_show', {
     direction: 'horizontal',
     slidesPerView:1,
