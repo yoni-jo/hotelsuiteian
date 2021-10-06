@@ -39,6 +39,15 @@
 .offers .slide_list{
     margin-right: 1rem;
 }
+.offers .slide_list a figure>p{
+    font-size:var(--font-small);
+    color:var(--color-black);
+    font-weight: var(--font-bolder);
+    text-align: center;
+}
+.offers .slide_list a figure>p>em{
+    color:var(--color-button);
+}
 .offers .slide_list a figure img {
     width: 100%;
 }
