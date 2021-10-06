@@ -26,3 +26,11 @@
     font-weight: var(--font-bold);
 }
 
+/*SLIDE SHOW*/
+
+.slide_show{
+
+}
+.slide_show .slider_container{
+    width: 100%;
+}

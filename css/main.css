@@ -129,28 +129,3 @@
 }
 
 
-/*SLIDE SHOW*/
-
-.slide_show .swiper-slide {
-    margin-right: 50px;
-}
-
-.slide_show .swiper-button-prev,
-.swiper-button-next {
-    bottom: 0;
-}
-
-.slide_show .tns-controls>button {
-    width: 80px;
-    height: 80px;
-    background: var(--color-white);
-    position: absolute;
-    bottom: 1rem;
-}
-.slide_show .tns-controls>button>i{
-    font-size: var(--font-medium);
-    color:var(--color-title);
-}
-.slide_show .tns-controls>button:last-child {
-    right: 0;
-}
