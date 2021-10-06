@@ -25,6 +25,9 @@
   <link rel="stylesheet" href="./css/common.css">
   <link rel="stylesheet" href="./css/location.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
+  <!-- KAKAOMAP API -->
+  <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=0847ed236cb5402440e1a65707ff5901"></script>
+  <script defer src="./js/map.js"></script>
   <!-- SCROLL MAGIC -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.8/ScrollMagic.min.js"
     integrity="sha512-8E3KZoPoZCD+1dgfqhPbejQBnQfBXe8FuwL4z/c8sTrgeDMFEnoyTlH3obB4/fV+6Sg0a0XF+L/6xS4Xx1fUEg=="
@@ -109,7 +112,7 @@
 
 
     <!--MAP-->
-    <section class="important inner map">
+    <section class="important inner map ">
       <div class="inner flex">
         <div class="intro_area">
           <h2 class="title">
@@ -129,7 +132,9 @@
             <span class="btn-view--back">대중교통(PDF)</span>
           </a>
         </div>
-        <div class="google_map"></div>
+        <div id="kakao_map" style="width: 50%; height:500px;">
+
+        </div>
       </div>
     </section>
 
