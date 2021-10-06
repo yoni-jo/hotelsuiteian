@@ -1,3 +1,8 @@
+/* TITLE_AREA */
+.title_area {
+    background-image: url(../img/qna/2.jpg);
+}
+
 /* Q&A */
 .qna>h2,
 .qna>p {
@@ -79,7 +84,7 @@
 .board__lists .list {
     padding: 10px;
     border-radius: 3px;
-    color:white;
+    color: white;
     font-size: var(--font-tiny);
     background-color: var(--color-footer-right);
     cursor: pointer;
