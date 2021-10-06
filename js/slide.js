@@ -1,11 +1,13 @@
 
+
 //SLIDE SHOW 세션 
 const slide_show = tns({
     container: '.slide_show .slider_container',
     slideBy: 'page',
     mouseDrag: true,
     controlsText:["<i class='fas fa-chevron-left'></i>","<i class='fas fa-chevron-right'></i>"],
-    controlsPosition:"bottom"
+    controlsPosition: "bottom",
+    
 });
   
 

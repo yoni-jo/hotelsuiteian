@@ -37,3 +37,18 @@ private_btn.forEach((private_btn) => {
     })
 })
 
+
+// scrolldown버튼 클릭시 다음세션으로 이동 
+
+const scroll_down = document.querySelector(".btn--scrolldown")
+const second_section = document.querySelector("section:nth-child(2)").offsetTop
+const etc = document.querySelector('.etc').clientHeight
+console.dir(etc)
+
+scroll_down.addEventListener("click",slideDown)
+function slideDown(){
+     window.scrollTo({
+        top:second_section - etc,
+        behavior:'smooth'
+    })
+}
