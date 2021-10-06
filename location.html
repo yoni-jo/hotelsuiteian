@@ -8,10 +8,6 @@
   <title>스위티안 호텔</title>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.png">
-  <!-- SWIPER.JS -->
-  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
-
-  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
   <!-- FONT -->
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Roboto:wght@100;300;400&display=swap"
@@ -19,6 +15,9 @@
   <!-- ICON -->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
     integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <!-- TINY_SLIDER.JS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.3/tiny-slider.css">
+
   <!-- CSS -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/reset-css@5.0.1/reset.min.css">
   <link rel="stylesheet" href="./css/reset.css">
@@ -80,34 +79,32 @@
       <h1 clacc="title">LOCATION</h1>
     </section>
 
-    <!-- LOCATION-->
-    <section class="important inner location">
+    <!-- SLIDE_SHOW-->
+    <section class="important inner slide_show">
       <div class="btn--sub_menu">
         <span class="btn--sub_menu--left on"><a href="./location.html">오시는길</a></span>
         <span class="btn--sub_menu--right"><a href="./q&a.html">문의사항</a></span>
       </div>
       <h2 class="title">Fantastic Landscape, Perfect Location</h2>
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">
+      <ul class="slider_container">
+        <li class="slide_list">
           <figure>
             <img src="./img/main/slide_show/1.jpg" alt="">
           </figure>
 
-        </div>
-        <div class="swiper-slide">
+        </li>
+        <li class="slide_list">
           <figure>
             <img src="./img/main/slide_show/2.jpg" alt="">
 
           </figure>
-        </div>
-        <div class="swiper-slide">
+        </li>
+        <li class="slide_list">
           <figure>
             <img src="./img/main/slide_show/3.jpg" alt="">
           </figure>
-        </div>
-      </div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-button-next"></div>
+        </li>
+      </ul>
     </section>
 
 
@@ -374,5 +371,7 @@
   </footer>
 
 </body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
 
 </html>
