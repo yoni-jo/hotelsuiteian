@@ -4,11 +4,22 @@
     background-image: url(../img/location/1.jpg);
 }
 
-/* LOCATION */
+/* SLIDE_SHOW */
 
-.location h2.title {
+.slide_show h2.title {
     text-align: right;
     font-weight: var(--font-medium);
+}
+
+.slide_show .slider_container {
+    background-color: black;
+    width: 100%;
+    position: relative;
+
+}
+
+.slide_show .slider_container{
+    box-shadow: 0
 }
 
 /* MAP */
