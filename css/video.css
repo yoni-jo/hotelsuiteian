@@ -1,0 +1,12 @@
+/* TITLE_AREA */
+.title_area {
+    background-image: url(../img/location/1.jpg);
+}
+/* VIDEO */
+
+.video{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
