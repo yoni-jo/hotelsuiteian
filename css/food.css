@@ -28,9 +28,9 @@
 
 /*SLIDE SHOW*/
 
-.slide_show{
-
-}
 .slide_show .slider_container{
     width: 100%;
+}
+.slide_show .slider_container>.slide_list{
+    height: 100vh;
 }
