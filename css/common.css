@@ -271,7 +271,7 @@ section.title_area {
 
 .top_area>h1 {
     position: absolute;
-    left: 50%;
+    left: calc(50% + 75px);
     top: 50%;
     transform: translate(-50%, -50%);
 }
@@ -491,7 +491,7 @@ p {
     height: 40px;
     border: 2px solid var(--color-white);
     border-radius: 20px;
-    left: 50%;
+    left: calc(50% + 75px);
     transform: translateX(-50%);
     z-index: 4;
   }
