@@ -7,6 +7,19 @@
 }
 
 /* CONTENT_INFO_BOX */
+
+.content_info_box {
+    background-image: url(../img/pool/7.jpg);
+}
 .important.content_info_box {
     margin-bottom: 0;
+}
+.content_info_box>.inner {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+/*SLIDE SHOW*/
+.slide_show .slider_container>.slide_list{
+    height: 100vh;
 }
