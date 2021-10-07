@@ -75,7 +75,26 @@
     font-size: var(--font-tiny);
     line-height: 2;
 }
-
+.booking__area>ol.check_lists>.list>table{
+    width: 100%;
+    text-align: center;
+}
+.booking__area>ol.check_lists>.list>table>thead{
+    background-color: var(--color-title);
+    color:var(--color-white);
+}
+.booking__area>ol.check_lists>.list>table tr{
+    border: 1px solid #000;
+    line-height: 30px;
+    height: 30px;
+}
+.booking__area>ol.check_lists>.list>table th,td{
+   
+border-right: 1px solid #000;
+}
+.booking__area>ol.check_lists>.list>table>thead{
+   
+}
 .confirmation {
     position: relative;
     margin: 4rem auto;
